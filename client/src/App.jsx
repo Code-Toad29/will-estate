@@ -24,6 +24,7 @@ import Companies from './components/Companies';
 // export default App;
 export default function App(){
       return<BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/buy' element={<Buy />} />
