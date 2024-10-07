@@ -79,7 +79,7 @@ const Navbar = () => {
                 <div className='text-xl flex items-center relative gap-20 font-bold uppercase'>
                     {/* Menu section */}
                     <ul className='flex gap-8 text-yellow-600' role="navigation">
-                        <li><Link to='/home' className='hover:text-white'>Home</Link></li>
+                        <li><Link to='/' className='hover:text-white'>Home</Link></li>
                         <li><Link to='/buy' className='hover:text-white'>Buy</Link></li>
                         <li><Link to='/rent' className='hover:text-white'>Rent</Link></li>
                         <li><Link to='/sell' className='hover:text-white'>Sell</Link></li>
